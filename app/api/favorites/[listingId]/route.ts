@@ -40,7 +40,7 @@ export async function POST(
 
 export async function DELETE(
   request: Request,
-  {params}: {request: IParams}
+  {params}: {params: IParams}
 ){
   const currentUser = await getCurrentUser();
 
